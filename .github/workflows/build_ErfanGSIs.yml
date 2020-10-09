@@ -14,8 +14,8 @@ on:
     types: [started]
     
 env:
-  ROM_URL: https://bigota.d.miui.com/V11.0.3.0.QEECNXM/miui_MIMIX3_V11.0.3.0.QEECNXM_4d73488207_10.0.zip
-  ROM_NAME: MIUI
+  ROM_URL: https://ip904587703.out.azhimalayanvh.com/Firmware/Flyme/16th/8.20.6.30/cn_beta/20200715101453/e551238c/update.zip?ali_redirect_domain=firmware.meizu.com&ali_redirect_ex_ftag=795511c2d0b65e0a4ab14482af4058b321298a63c2ce6508&ali_redirect_ex_tmining_ts=1602207638&ali_redirect_ex_tmining_expire=3600&ali_redirect_ex_hot=100
+  ROM_NAME: Flyme
   TZ: Asia/Shanghai
 
 jobs:
@@ -61,7 +61,7 @@ jobs:
        - name: Upload GSI to BitSend
          run: |
               curl -sL https://git.io/file-transfer | sh
-              ./transfer bit final/GSI.zip
+              ./transfer got final/GSI.zip
 
          
             
